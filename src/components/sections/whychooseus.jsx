@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { GiToadTeeth } from "react-icons/gi";
+
 export default function WhyChooseUs() {
   return (
     <Container fluid className="py-5 ">

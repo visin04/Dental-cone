@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import { HiMiniArrowUpRight } from "react-icons/hi2";
-import { TbDental, TbDentalBroken, TbDentalOff } from "react-icons/tb";
+import { Container, Row, Col, Card } from "react-bootstrap";
+
 
 export default function Team() {
   return (
@@ -26,7 +25,7 @@ export default function Team() {
           <Card className="shadow border-0 flex-fill cardsection4  meo"  style={{ backgroundColor: "transparent", border: "none" }}>
             <Card.Body className="p-0">
                 <div>
-                    <img src="https://demo.awaikenthemes.com/dentaire/wp-content/uploads/2024/07/team-2.jpg" className="imgcard"/>
+                    <img src="https://demo.awaikenthemes.com/dentaire/wp-content/uploads/2024/07/team-2.jpg" className="imgcard" alt=""/>
                 </div>
               <span className="readmores">
                <h4 className="h4ofsection8 pt-4">Dr.Shiva</h4>  
@@ -41,7 +40,7 @@ export default function Team() {
           <Card className="shadow border-0 flex-fill cardsection4  meo"  style={{ backgroundColor: "transparent", border: "none" }}>
             <Card.Body className="p-0">
                 <div>
-                    <img src="https://demo.awaikenthemes.com/dentaire/wp-content/uploads/2024/07/team-1.jpg" className="imgcard"/>
+                    <img src="https://demo.awaikenthemes.com/dentaire/wp-content/uploads/2024/07/team-1.jpg" className="imgcard"  alt=""/>
                 </div>
               <span className="readmores ">
                <h4 className="h4ofsection8 pt-4 ">Dr.Antony</h4>  
@@ -56,7 +55,7 @@ export default function Team() {
           <Card className="shadow border-0 flex-fill cardsection4 meo"  style={{ backgroundColor: "transparent", border: "none" }}>
             <Card.Body className="p-0">
                 <div>
-                    <img src="https://demo.awaikenthemes.com/dentaire/wp-content/uploads/2024/07/team-2.jpg" className="imgcard"/>
+                    <img src="https://demo.awaikenthemes.com/dentaire/wp-content/uploads/2024/07/team-2.jpg" className="imgcard" alt=""/>
                 </div>
               <span className="readmores ">
                <h4 className="h4ofsection8 pt-4 ">Dr.Vasanth</h4>  
@@ -70,7 +69,7 @@ export default function Team() {
           <Card className="shadow border-0 flex-fill cardsection4  meo"  style={{ backgroundColor: "transparent", border: "none" }}>
             <Card.Body className="p-0">
                 <div>
-                    <img src="https://demo.awaikenthemes.com/dentaire/wp-content/uploads/2024/07/team-1.jpg" className="imgcard"/>
+                    <img src="https://demo.awaikenthemes.com/dentaire/wp-content/uploads/2024/07/team-1.jpg" className="imgcard" alt=""/>
                 </div>
               <span className="readmores">
                <h4 className="h4ofsection8 pt-4 pt-4">Dr.Ganapathy</h4>  

@@ -21,10 +21,10 @@ export default function Footer() {
           <Col xs={12} md={6} lg={3} className="d-flex flex-column">
             <h5 className="text-white mb-3">Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className=" text-decoration-none" style={{color:"white"}}>Home</a></li>
-              <li><a href="#" className=" text-decoration-none"  style={{color:"white"}}>About Us</a></li>
-              <li><a href="#" className=" text-decoration-none"  style={{color:"white"}}>Services</a></li>
-              <li><a href="#" className=" text-decoration-none"  style={{color:"white"}}>Contact</a></li>
+              <li className=" text-decoration-none" style={{color:"white"}}>Home</li>
+              <li className=" text-decoration-none"  style={{color:"white"}}>About Us</li>
+              <li className=" text-decoration-none"  style={{color:"white"}}>Services</li>
+              <li className=" text-decoration-none"  style={{color:"white"}}>Contact</li>
             </ul>
           </Col>
 
@@ -34,8 +34,8 @@ export default function Footer() {
             <ul className="list-unstyled">
               <li><a href="about" className=" text-decoration-none"  style={{color:"white"}}>General Dentistry</a></li>
               <li><a href="service" className=" text-decoration-none"  style={{color:"white"}}>Cosmetic Dentistry</a></li>
-              <li><a href="#" className=" text-decoration-none"  style={{color:"white"}}>Dental Implants</a></li>
-              <li><a href="#" className=" text-decoration-none"  style={{color:"white"}}>Teeth Whitening</a></li>
+              <li className=" text-decoration-none"  style={{color:"white"}}>Dental Implants</li>
+              <li className=" text-decoration-none"  style={{color:"white"}}>Teeth Whitening</li>
             </ul>
           </Col>
 
