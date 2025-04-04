@@ -76,7 +76,7 @@ export default function Home() {
         <Row className="align-items-center">
       
           <Col lg={6} md={12} className="text-left">
-            <h1 className="fw-bold outerhtext"  data-aos="fade-right">
+            <h1 className="fw-bold outerhtext"  data-aos="fade-down">
               Experience <span className="dentalhtext">Dental Excellence</span> with a <br />
               Gentle Touch
             </h1>
@@ -99,7 +99,7 @@ export default function Home() {
           </Col>
 
           {/* Right Section (Form) */}
-          <Col lg={6} md={12} className="d-flex justify-content-center"  data-aos="fade-left">
+          <Col lg={6} md={12} className="d-flex justify-content-center"  data-aos="fade-up">
             <div className="shadow-lg p-4" style={{ width: "100%", maxWidth: "450px", borderRadius: '28px' }}>
               <h3 className="fw-bold text-center mb-3 outerhtext">
                 <span className="dentalhtext">Book</span> Appointment
