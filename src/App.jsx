@@ -14,12 +14,12 @@ import Team from './components/sections/team';
 import Testimonial from './components/sections/testimonal';
 import Contact from './components/sections/contact';
 import { useEffect } from 'react';
+import AOS from 'aos';
 
 function App() {
   useEffect(() => {
     const ball = document.querySelector(".pointer-ball");
     if (!ball) return; 
-
     let mouseX = 0, mouseY = 0;
     let ballX = 0, ballY = 0;
     const speed = 0.2; 
@@ -43,10 +43,14 @@ function App() {
     };
   }, []);
 
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Adjust duration if needed
+  }, []);
+
   return (
     <>
       <div className="pointer-ball"></div>
-      <div className="App">
+      <div className="App ">
         <Header />
         <Home />
         <AppointmentDetails />

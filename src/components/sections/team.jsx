@@ -7,7 +7,7 @@ export default function Team() {
     <Container className="my-5 py-4 text-center">
       {/* Heading Section */}
       <Row className="justify-content-center text-center">
-        <Col md={8}>
+        <Col md={8} data-aos="fade-down">
           <h6 className="section3h">* OUR TEAM</h6>
           <h1 className="fw-bold outerhtext">
             <span className="dentalhtext">Our Friendly</span> Dentist Team
@@ -22,7 +22,9 @@ export default function Team() {
       <Row className="mt-4 justify-content-center">
         {/* Card 1 */}
         <Col xs={12} sm={6} lg={3} className="mb-4 d-flex">
-          <Card className="shadow border-0 flex-fill cardsection4  meo"  style={{ backgroundColor: "transparent", border: "none" }}>
+        <div  data-aos="fade-down">
+
+          <Card className="shadow border-0 flex-fill cardsection4  meo"  style={{ backgroundColor: "transparent", border: "none" }} >
             <Card.Body className="p-0">
                 <div>
                     <img src="https://demo.awaikenthemes.com/dentaire/wp-content/uploads/2024/07/team-2.jpg" className="imgcard" alt=""/>
@@ -33,10 +35,13 @@ export default function Team() {
               </span>
             </Card.Body>
           </Card>
+        </div>
         </Col>
 
         {/* Card 2 */}
         <Col xs={12} sm={6} lg={3} className="mb-4 d-flex">
+        <div  data-aos="fade-up">
+
           <Card className="shadow border-0 flex-fill cardsection4  meo"  style={{ backgroundColor: "transparent", border: "none" }}>
             <Card.Body className="p-0">
                 <div>
@@ -48,10 +53,13 @@ export default function Team() {
               </span>
             </Card.Body>
           </Card>
+        </div>
         </Col>
 
         {/* Card 3 */}
         <Col xs={12} sm={6} lg={3} className="mb-4 d-flex">
+        <div  data-aos="fade-down">
+
           <Card className="shadow border-0 flex-fill cardsection4 meo"  style={{ backgroundColor: "transparent", border: "none" }}>
             <Card.Body className="p-0">
                 <div>
@@ -63,9 +71,12 @@ export default function Team() {
               </span>
             </Card.Body>
           </Card>
+        </div>
         </Col>
         {/* Card 4 */}
         <Col xs={12} sm={6} lg={3} className="mb-4 d-flex">
+        <div  data-aos="fade-up">
+
           <Card className="shadow border-0 flex-fill cardsection4  meo"  style={{ backgroundColor: "transparent", border: "none" }}>
             <Card.Body className="p-0">
                 <div>
@@ -77,6 +88,7 @@ export default function Team() {
               </span>
             </Card.Body>
           </Card>
+        </div>
         </Col>
       </Row>
       

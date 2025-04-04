@@ -9,6 +9,8 @@ export default function Service() {
       {/* Heading Section */}
       <Row className="justify-content-center text-center">
         <Col md={8}>
+        <div  data-aos="fade-down">
+
           <h6 className="section3h">* OUR SERVICES</h6>
           <h1 className="fw-bold outerhtext">
             <span className="dentalhtext">High Quality</span> Service For You
@@ -16,6 +18,7 @@ export default function Service() {
           <p className="pelemetsection1">
             We are committed to sustainability and eco-friendly initiatives.
           </p>
+        </div>
         </Col>
       </Row>
 
@@ -23,8 +26,10 @@ export default function Service() {
       <Row className="mt-4 justify-content-center">
         {/* Card 1 */}
         <Col xs={12} sm={6} lg={3} className="mb-4 d-flex">
-          <Card className="shadow border-0 p-3 flex-fill cardsection4">
-            <Card.Body>
+        <div  data-aos="fade-up">
+
+          <Card className="shadow border-0 p-3 flex-fill cardsection4" >
+            <Card.Body >
               <TbDental size={60} />
               <Card.Title className="mt-3 h5cardsection3">Comprehensive Dental Care</Card.Title>
               <Card.Text className="psection4card">
@@ -35,12 +40,14 @@ export default function Service() {
               </span>
             </Card.Body>
           </Card>
+        </div>
         </Col>
 
         {/* Card 2 */}
         <Col xs={12} sm={6} lg={3} className="mb-4 d-flex">
-     
-        <Card className="shadow border-0 p-3 flex-fill cardsection4">
+     <div  data-aos="fade-down">
+
+        <Card className="shadow border-0 p-3 flex-fill cardsection4"  >
             <Card.Body >
               <TbDentalBroken size={60} />
               <Card.Title className="mt-3 h5cardsection3">Emergency Services</Card.Title>
@@ -53,12 +60,15 @@ export default function Service() {
             </Card.Body>
           </Card>
        
+     </div>
           
         </Col>
 
         {/* Card 3 */}
         <Col xs={12} sm={6} lg={3} className="mb-4 d-flex">
-          <Card className="shadow border-0 p-3 flex-fill cardsection4">
+        <div  data-aos="fade-up">
+
+          <Card className="shadow border-0 p-3 flex-fill cardsection4"   data-aos="fade-up">
             <Card.Body>
               <TbDentalOff size={60} />
               <Card.Title className="mt-3 h5cardsection3">Preventive Dentistry</Card.Title>
@@ -70,11 +80,13 @@ export default function Service() {
               </span>
             </Card.Body>
           </Card>
+        </div>
         </Col>
 
         {/* Card 4 */}
         <Col xs={12} sm={6} lg={3} className="mb-4 d-flex">
-          <Card className="shadow border-0 p-3 flex-fill cardsection4">
+        <div   data-aos="fade-down">
+          <Card className="shadow border-0 p-3 flex-fill cardsection4"  >
             <Card.Body>
               <TbDentalOff size={60} />
               <Card.Title className="mt-3 h5cardsection3">Advanced Technology</Card.Title>
@@ -86,6 +98,7 @@ export default function Service() {
               </span>
             </Card.Body>
           </Card>
+        </div>
         </Col>
       </Row>
       

@@ -9,6 +9,8 @@ export default function Testimonial() {
     <Container fluid className="py-5 bg-white">
       <Container className="text-center">
         {/* Heading */}
+        <div  data-aos="fade-down"> 
+
         <p className="section3h fw-semibold">* TESTIMONIAL</p>
         <h1 className="fw-bold outerhtext">
           What our<span className="dentalhtext"> Clients Say</span>
@@ -16,6 +18,7 @@ export default function Testimonial() {
         <p className="text-muted">
           We are committed to sustainability, eco-friendly initiatives.
         </p>
+        </div>
 
         <Row className="align-items-center mt-5">
           {/* Left Side - Image */}
@@ -24,7 +27,7 @@ export default function Testimonial() {
               src="https://demo.awaikenthemes.com/dentaire/wp-content/uploads/2024/07/how-it-work-img.jpg" 
               className="img-fluid" 
               alt="How it works"
-            />
+              data-aos="fade-up" />
           </Col>
 
           <Col xs={12} md={6} className="d-flex justify-content-center">

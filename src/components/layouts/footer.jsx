@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 export default function Footer() {
   return (
     <div className="contactbar py-4">
-    <footer className="text-light py-4">
+    <footer className="text-light py-4 " style={{fontFamily:'sans-serif'}}>
       <Container>
         <Row className="gy-4 justify-content-between py-4">
           {/* First Div: Image & Description */}

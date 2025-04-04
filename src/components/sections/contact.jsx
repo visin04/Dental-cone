@@ -31,10 +31,13 @@ export default function Contact() {
       </GoogleMap>
     </LoadScript></Col>
         <Col className='py-4 pl-4'  xs={12} md={6} >
+        <div  data-aos="fade-down">
         <h6 className="section3h">* CONTACT NOW</h6>
+
           <h1 className="fw-bold outerhtext">
             <span className="dentalhtext">Get Free Proffesional</span><br />  consaltation
           </h1>
+        </div>
           <div className="d-flex align-items-center gap-2">
             <IoLocationOutline size={35} /> {/* Adjust size if needed */}
             <p className="pelemetsection2 mb-0 py-4">No 39 Karuvadi Kupam</p>

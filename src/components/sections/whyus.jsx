@@ -14,13 +14,15 @@ export default function Whyus() {
       src="https://demo.awaikenthemes.com/dentaire/wp-content/uploads/2024/07/how-it-work-img.jpg" 
       className="img-fluid" 
       alt="Dental Care"
-    />
+      data-aos="fade-down"/>
   </Col>
 
   {/* Content Column */}
   <Col xs={12} md={6}>
+  <div  data-aos="fade-up">
+
     <p className="section3h fw-semibold">* WHY CHOOSE US</p>
-    <h1 className="fw-bold outerhtext">
+    <h1 className="fw-bold outerhtext" >
       What we Do For<span className="dentalhtext"> Your Teeth</span> 
     </h1>
     <p className="text-muted pelemetsection1">
@@ -29,6 +31,7 @@ export default function Whyus() {
       that it has a more-or-less normal distribution of letters, making it look like
       readable English.
     </p>
+  </div>
 
     {/* Accordion Section */}
     <Accordion defaultActiveKey="0" className="accordion">
